@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24671f214a31a4cbda28cb32192349a5, type: 3}
+  m_Name: kenney_planet_v1_registry
+  m_EditorClassIdentifier: 
+  entries:
+  - id: road_straight
+    prefab: {fileID: 360916808077978762, guid: 204b460acf3274afe9f768aa14a2ba1f, type: 3}
+  - id: road_corner
+    prefab: {fileID: 4720181241862822398, guid: 90fbce1bd576442ddb2d56127950399c, type: 3}
+  - id: road_t
+    prefab: {fileID: 5208415507975194797, guid: 24bd679cce37e448587f1934a7e791db, type: 3}
+  - id: road_crossing
+    prefab: {fileID: 1773999350917693333, guid: 7ea520408ef7841869f81c3a64e12d42, type: 3}
+  - id: ground_regolith
+    prefab: {fileID: 3531838505819102737, guid: 415f3a77895c043498a59d382367db04, type: 3}
+  - id: ground_dust
+    prefab: {fileID: 6285883189597184412, guid: 63b813a401fb84f4d89d1590764ba989, type: 3}
+  - id: rock_large_a
+    prefab: {fileID: 1016315802717955551, guid: a3fd421ff33ba4c869e67f4956bad830, type: 3}
+  - id: rock_large_b
+    prefab: {fileID: 112219485989795377, guid: 07c582452ccf14907b3e90ef53385755, type: 3}
+  - id: rock_crystals
+    prefab: {fileID: 4277436128006905473, guid: 4057f9183183747339d9a0a522682e8b, type: 3}
+  - id: rock_meteor
+    prefab: {fileID: 6055102408616329576, guid: b166ce5547c1141cc940aff6041b90ae, type: 3}
+  - id: bld_module
+    prefab: {fileID: 2123977494344264496, guid: a64cb6a5a15cf47fdb115c990b2ec07c, type: 3}
+  - id: bld_generator
+    prefab: {fileID: 1263147681186976665, guid: 6bf48206618be4d2082895269f96abfe, type: 3}
+  - id: bld_dish
+    prefab: {fileID: 3504489909110286199, guid: 6e0720d4638b2468fa9ce95365a5ffd1, type: 3}
+  - id: prop_rubble
+    prefab: {fileID: 7328387804109536334, guid: 32459c89bc89a4f26b354781fa588539, type: 3}
+  - id: prop_barrels
+    prefab: {fileID: 253223655728339393, guid: ace67af915b354f98aaa43391e50728e, type: 3}
+  - id: prop_rover
+    prefab: {fileID: 7600925377744628826, guid: 28e8f38de8a064e9f875f7f176063bd1, type: 3}
+  - id: obs_barrels
+    prefab: {fileID: 584586126775888522, guid: 2ba6789691ee24ccb8f622a43a57853d, type: 3}

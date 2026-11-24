@@ -1,0 +1,72 @@
+{
+  "manifest": "kenney_warehouse_v1",
+  "folder": "Warehouse",
+  "_about": "Flat concrete and aisle surfaces with stationary crates, barrels and cones. Box rows form storage aisles; crate blockers require a detour; staging clusters leave central and perimeter lanes. No ramps, pits, raised floors or moving machinery.",
+  "items": [
+    {
+      "id": "aisle_floor",
+      "model": "",
+      "plain": "aisle",
+      "category": "road",
+      "weight": 1
+    },
+    {
+      "id": "ground_concrete",
+      "model": "",
+      "plain": "concrete",
+      "category": "ground",
+      "weight": 1
+    },
+    {
+      "id": "box_large",
+      "model": "FactoryKit/box-large",
+      "category": "building",
+      "front": "any",
+      "scale": 0.8,
+      "weight": 1
+    },
+    {
+      "id": "box_long",
+      "model": "FactoryKit/box-long",
+      "category": "building",
+      "front": "any",
+      "scale": 0.8,
+      "weight": 1
+    },
+    {
+      "id": "box_wide",
+      "model": "FactoryKit/box-wide",
+      "category": "building",
+      "front": "any",
+      "scale": 0.8,
+      "weight": 1
+    },
+    {
+      "id": "prop_box",
+      "model": "FactoryKit/box-small",
+      "category": "prop",
+      "scale": 0.8,
+      "weight": 2
+    },
+    {
+      "id": "prop_cone",
+      "model": "FactoryKit/cone",
+      "category": "prop",
+      "weight": 0.5
+    },
+    {
+      "id": "prop_barrel",
+      "model": "SurvivalKit/barrel",
+      "category": "prop",
+      "scale": 1.5,
+      "weight": 0.5
+    },
+    {
+      "id": "obs_crates",
+      "model": "FactoryKit/box-long",
+      "category": "road_obstacle",
+      "scale": 0.8,
+      "weight": 1
+    }
+  ]
+}

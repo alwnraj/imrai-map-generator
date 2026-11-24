@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "name": "warehouse",
+  "manifest": "kenney_warehouse_v1",
+  "arena_size_m": [
+    9.71,
+    7.16
+  ],
+  "arena_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "margin_m": 0.3,
+  "tile_m": 1.0,
+  "min_corridor_m": 1.0,
+  "block_tiles": 2,
+  "road_drop": 0,
+  "building_density": 0.9,
+  "prop_density": 0.2,
+  "road_obstacles": 0,
+  "start_tile": [],
+  "goal_tile": [],
+  "max_tries": 20,
+  "min_path_fraction": 0.5,
+  "layout": "storage_aisles"
+}

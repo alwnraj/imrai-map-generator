@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24671f214a31a4cbda28cb32192349a5, type: 3}
+  m_Name: kenney_rubble_v1_registry
+  m_EditorClassIdentifier: 
+  entries:
+  - id: road_straight
+    prefab: {fileID: 7720639019525936415, guid: 81e3530445d3249d8b77a706b5a6bf08, type: 3}
+  - id: road_corner
+    prefab: {fileID: 4045218897328582248, guid: 3dfe7f253b9ea4df49dbe6c4bce353e8, type: 3}
+  - id: road_t
+    prefab: {fileID: 1233771334247044081, guid: 91b0d9399a5954e9787e0c75062523ef, type: 3}
+  - id: road_crossing
+    prefab: {fileID: 2127354892742835012, guid: 73b838e7837ac4b8fbc02ca9f924cc6d, type: 3}
+  - id: ground_gravel
+    prefab: {fileID: 5734025807536472823, guid: bd7cdb406e3864e41a3a94dbbabcafc8, type: 3}
+  - id: ground_pavement
+    prefab: {fileID: 1269610396868234439, guid: 829478eaf321c4dd7b0a82a832b45589, type: 3}
+  - id: bld_ruin_open
+    prefab: {fileID: 8920928157347564256, guid: 18145bf1f7dbe4bbab4f389631376e7e, type: 3}
+  - id: bld_scaffold
+    prefab: {fileID: 7590701647344774406, guid: 1ee375db7aecb4c9c88effaac78777e3, type: 3}
+  - id: bld_wall_broken
+    prefab: {fileID: 2375691201592322042, guid: 5d51f9ddf122c4dd3a94387ae32a3ae1, type: 3}
+  - id: bld_truck_wreck
+    prefab: {fileID: 723327334930329017, guid: 20492dfcd586c4d31a14cdc0ad36c96e, type: 3}
+  - id: bld_dumpster
+    prefab: {fileID: 842287340391151895, guid: cae618772057346398f9f9acfbb7352c, type: 3}
+  - id: prop_bricks
+    prefab: {fileID: 6838848686172300660, guid: 0370d646b42074d45b415a9b890c9208, type: 3}
+  - id: prop_barrier
+    prefab: {fileID: 3706069414929565315, guid: cb4ea54f5ae38419bbafd0fc2229af8a, type: 3}
+  - id: prop_tree_dead
+    prefab: {fileID: 8802896597066648706, guid: 5ffdad190360f44968cc66dcc60a350e, type: 3}
+  - id: prop_tyre
+    prefab: {fileID: 6030798090400150446, guid: 13dcdfc8f49814d0e8c73271a365a3c7, type: 3}
+  - id: prop_barrel
+    prefab: {fileID: 6238109379564567655, guid: 2a3010fec916a4ee7a490742bc42a5d8, type: 3}
+  - id: obs_concrete
+    prefab: {fileID: 1352512172088661320, guid: 0a3fac8fc93b54b7c81a9f26585bc5c9, type: 3}

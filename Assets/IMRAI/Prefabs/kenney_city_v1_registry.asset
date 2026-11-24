@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24671f214a31a4cbda28cb32192349a5, type: 3}
+  m_Name: kenney_city_v1_registry
+  m_EditorClassIdentifier: 
+  entries:
+  - id: road_straight
+    prefab: {fileID: 884332594396945116, guid: c3c76237c2a7441cf82291506eb461ea, type: 3}
+  - id: road_crosswalk
+    prefab: {fileID: 1559229670847088040, guid: 98ff07087578244ec98db9e16083a4ce, type: 3}
+  - id: road_corner
+    prefab: {fileID: 3987864997123445473, guid: c60dddbd5a47e42318a18cb6f407fe45, type: 3}
+  - id: road_corner_round
+    prefab: {fileID: 1154636196497847350, guid: 440066eac97ba43849768a4621acdc01, type: 3}
+  - id: road_t
+    prefab: {fileID: 3070820483577992371, guid: 540c2697e41f04aecaf2de4f740c1ffa, type: 3}
+  - id: road_crossing
+    prefab: {fileID: 4880944906940263425, guid: 3198fdff133ba4c87b76b90c3c963294, type: 3}
+  - id: ground_pavement
+    prefab: {fileID: 3737042350988112001, guid: 99673bdfa147647209b0def73b64bc24, type: 3}
+  - id: ground_grass
+    prefab: {fileID: 7333005314377032324, guid: 54a8c19cac09f4703bc372a8ca6e4eb2, type: 3}
+  - id: bld_shop_a
+    prefab: {fileID: 4321481219714400460, guid: cffa77a49f86746cca1cc8c162970a8a, type: 3}
+  - id: bld_shop_b
+    prefab: {fileID: 932605667547017105, guid: a2e5d33fbb12542fbb97c49b55e7f995, type: 3}
+  - id: bld_shop_d
+    prefab: {fileID: 7269217389457249722, guid: b1179a87bd53f4e71b3e95234ae79cc3, type: 3}
+  - id: bld_shop_g
+    prefab: {fileID: 2771512134979041817, guid: 471683555ea05485cb05093a90814ab4, type: 3}
+  - id: bld_tower_a
+    prefab: {fileID: 4551885744544687709, guid: c9859760fedb74b0882d2c34b783e83c, type: 3}
+  - id: bld_tower_d
+    prefab: {fileID: 5677958788553291073, guid: 24a6121e444114ab085678e881685e13, type: 3}
+  - id: bld_tower_h
+    prefab: {fileID: 8036894096364826265, guid: 29b87cff88fe4485eb4eff6fadb9cdb3, type: 3}
+  - id: bld_tower_l
+    prefab: {fileID: 3268213594537277414, guid: 1350aedc8eb6c4be7b6c901ddd829df2, type: 3}
+  - id: bld_block_a
+    prefab: {fileID: 1879246592356392751, guid: 2f46fe7956c2a47cc937dba157691b6b, type: 3}
+  - id: bld_block_b
+    prefab: {fileID: 9874799793336089, guid: e2d583934b5994c838c678af5c0a0b4c, type: 3}
+  - id: prop_tree_tall
+    prefab: {fileID: 2597248076290307435, guid: 1c2e1522b2ac14ebaa2db5af09b368d1, type: 3}
+  - id: prop_tree_small
+    prefab: {fileID: 4066546872377183248, guid: 47c47934f1b694dfab9ac32be5a5b70a, type: 3}
+  - id: prop_planter
+    prefab: {fileID: 5249839566160111319, guid: f8fd26392b7e94f698eb628c05d809e6, type: 3}
+  - id: prop_lamp_square
+    prefab: {fileID: 2059819665637023451, guid: 586a9ad98a8f944fd9bb005fef8e8c9e, type: 3}
+  - id: prop_lamp_curved
+    prefab: {fileID: 4854897230327163534, guid: baa11f526822743059b49da42a300879, type: 3}
+  - id: prop_dumpster
+    prefab: {fileID: 158578804391265923, guid: 8a37674800f664d1ebe0375a1644e607, type: 3}
+  - id: obs_barrier_row
+    prefab: {fileID: 1190552902754594460, guid: eea247cffed0c48b6be2d435feac3da4, type: 3}

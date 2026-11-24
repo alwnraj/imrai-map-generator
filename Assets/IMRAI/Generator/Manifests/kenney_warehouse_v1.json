@@ -1,0 +1,11 @@
+[
+  {"id": "aisle_floor", "prefab": "Warehouse/aisle_floor", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "weight": 1, "size": [1, 0, 1], "source": "IMRAI plain aisle tile"},
+  {"id": "ground_concrete", "prefab": "Warehouse/ground_concrete", "category": "ground", "footprint": [1, 1], "height": 0, "collider": "none", "weight": 1, "size": [1, 0, 1], "source": "IMRAI plain concrete tile"},
+  {"id": "box_large", "prefab": "Warehouse/box_large", "category": "building", "footprint": [1, 1], "height": 0.44, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.88, 0.44, 0.8], "source": "Kenney FactoryKit/box-large"},
+  {"id": "box_long", "prefab": "Warehouse/box_long", "category": "building", "footprint": [1, 1], "height": 0.44, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.88, 0.44, 0.4], "source": "Kenney FactoryKit/box-long"},
+  {"id": "box_wide", "prefab": "Warehouse/box_wide", "category": "building", "footprint": [1, 1], "height": 0.44, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.476, 0.44, 0.8], "source": "Kenney FactoryKit/box-wide"},
+  {"id": "prop_box", "prefab": "Warehouse/prop_box", "category": "prop", "footprint": [1, 1], "height": 0.44, "collider": "trigger_box", "weight": 2, "size": [0.476, 0.44, 0.4], "source": "Kenney FactoryKit/box-small"},
+  {"id": "prop_cone", "prefab": "Warehouse/prop_cone", "category": "prop", "footprint": [1, 1], "height": 0.306, "collider": "trigger_box", "weight": 0.5, "size": [0.3, 0.306, 0.3], "source": "Kenney FactoryKit/cone"},
+  {"id": "prop_barrel", "prefab": "Warehouse/prop_barrel", "category": "prop", "footprint": [1, 1], "height": 0.516, "collider": "trigger_box", "weight": 0.5, "size": [0.355, 0.516, 0.355], "source": "Kenney SurvivalKit/barrel"},
+  {"id": "obs_crates", "prefab": "Warehouse/obs_crates", "category": "road_obstacle", "footprint": [1, 1], "height": 0.44, "collider": "trigger_box", "weight": 1, "size": [0.88, 0.44, 0.4], "source": "Kenney FactoryKit/box-long"}
+]

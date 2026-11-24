@@ -1,0 +1,24 @@
+{
+  "manifest": "kenney_planet_v1",
+  "folder": "Planet",
+  "_about": "Planetary scenery on a flat arena, without craters or holes. Rocks, crystals, meteors and machines are above-ground obstacles. The builder centres offset Space Kit models on their tiles. Road connects at rotation 0: corner N-W, split W-E-S. The road obstacle is two barrel stacks across a N-S road at rotation 0.",
+  "items": [
+    {"id": "road_straight", "model": "SpaceKit/terrain_roadStraight", "category": "road", "connects": ["N", "S"], "weight": 1.0},
+    {"id": "road_corner", "model": "SpaceKit/terrain_roadCorner", "category": "road", "connects": ["N", "W"], "weight": 1.0},
+    {"id": "road_t", "model": "SpaceKit/terrain_roadSplit", "category": "road", "connects": ["W", "E", "S"], "weight": 1.0},
+    {"id": "road_crossing", "model": "SpaceKit/terrain_roadCross", "category": "road", "connects": ["N", "E", "S", "W"], "weight": 1.0},
+    {"id": "ground_regolith", "model": "SpaceKit/terrain", "category": "ground", "weight": 2.0},
+    {"id": "ground_dust", "model": "", "plain": "dust", "category": "ground", "weight": 1.0},
+    {"id": "rock_large_a", "model": "SpaceKit/rock_largeA", "category": "building", "front": "any", "weight": 1.0},
+    {"id": "rock_large_b", "model": "SpaceKit/rock_largeB", "category": "building", "front": "any", "weight": 1.0},
+    {"id": "rock_crystals", "model": "SpaceKit/rock_crystalsLargeA", "category": "building", "front": "any", "weight": 0.7},
+    {"id": "rock_meteor", "model": "SpaceKit/meteor", "category": "building", "front": "any", "weight": 0.7},
+    {"id": "bld_module", "model": "SpaceKit/structure", "category": "building", "front": "any", "weight": 0.5, "scale": 0.95},
+    {"id": "bld_generator", "model": "SpaceKit/machine_generator", "category": "building", "front": "any", "weight": 0.5},
+    {"id": "bld_dish", "model": "SpaceKit/satelliteDish", "category": "building", "front": "any", "weight": 0.5},
+    {"id": "prop_rubble", "model": "SpaceKit/rocks_smallA", "category": "prop", "weight": 0.7, "min_box_height": 0.2},
+    {"id": "prop_barrels", "model": "SpaceKit/barrels", "category": "prop", "weight": 0.5},
+    {"id": "prop_rover", "model": "SpaceKit/rover", "category": "prop", "weight": 0.5},
+    {"id": "obs_barrels", "model": "SpaceKit/barrels", "category": "road_obstacle", "count": 2, "spacing": 0.45, "row_axis": "x", "weight": 1.0}
+  ]
+}

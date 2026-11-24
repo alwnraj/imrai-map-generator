@@ -1,0 +1,24 @@
+{
+  "manifest": "kenney_rubble_v1",
+  "folder": "Rubble",
+  "_about": "Rubble / disaster terrain: the city road pieces (same connects as the city manifest) with damaged buildings, scaffolding, wrecked trucks and debris from the Retro Urban, Car and Survival kits on gravel and pavement. The road obstacle is a heavy concrete barrier turned to lie across an E-W road at rotation 0.",
+  "items": [
+    {"id": "road_straight", "model": "CityKitRoads/road-straight", "category": "road", "connects": ["E", "W"], "weight": 1.0},
+    {"id": "road_corner", "model": "CityKitRoads/road-bend-square", "category": "road", "connects": ["N", "E"], "weight": 1.0},
+    {"id": "road_t", "model": "CityKitRoads/road-intersection", "category": "road", "connects": ["N", "E", "W"], "weight": 1.0},
+    {"id": "road_crossing", "model": "CityKitRoads/road-crossroad", "category": "road", "connects": ["N", "E", "S", "W"], "weight": 1.0},
+    {"id": "ground_gravel", "model": "", "plain": "gravel", "category": "ground", "weight": 2.0},
+    {"id": "ground_pavement", "model": "CityKitRoads/tile-low", "category": "ground", "weight": 1.0},
+    {"id": "bld_ruin_open", "model": "RetroUrbanKit/wall-a-open", "category": "building", "front": "any", "weight": 1.0, "scale": 0.95},
+    {"id": "bld_scaffold", "model": "RetroUrbanKit/scaffolding-structure", "category": "building", "front": "any", "weight": 0.7, "scale": 0.95},
+    {"id": "bld_wall_broken", "model": "RetroUrbanKit/wall-broken-type-a", "category": "building", "front": "any", "weight": 0.7, "scale": 0.95},
+    {"id": "bld_truck_wreck", "model": "RetroUrbanKit/truck-green", "category": "building", "front": "any", "weight": 0.5, "scale": 0.6},
+    {"id": "bld_dumpster", "model": "RetroUrbanKit/detail-dumpster-closed", "category": "building", "front": "any", "weight": 0.5},
+    {"id": "prop_bricks", "model": "RetroUrbanKit/detail-bricks-type-a", "category": "prop", "weight": 1.0},
+    {"id": "prop_barrier", "model": "RetroUrbanKit/detail-barrier-type-a", "category": "prop", "weight": 0.7},
+    {"id": "prop_tree_dead", "model": "RetroUrbanKit/tree-small", "category": "prop", "weight": 0.5},
+    {"id": "prop_tyre", "model": "CarKit/debris-tire", "category": "prop", "weight": 0.7, "scale": 0.6},
+    {"id": "prop_barrel", "model": "SurvivalKit/barrel", "category": "prop", "weight": 0.7, "scale": 1.5},
+    {"id": "obs_concrete", "model": "RetroUrbanKit/detail-barrier-strong-type-a", "category": "road_obstacle", "child_yaw": 90, "scale": 1.4, "weight": 1.0}
+  ]
+}

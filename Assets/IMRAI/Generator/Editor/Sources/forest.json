@@ -1,0 +1,31 @@
+{
+  "manifest": "kenney_forest_v1",
+  "folder": "Forest",
+  "_about": "Forest on a flat arena: dirt paths and flat grass/dirt tiles, with trees, bare stones, stumps, bushes and logs as above-ground obstacles. No ponds or raised terrain banks. Path straight runs N-S; connects use N = +Z. The road obstacle is a fallen log across a N-S path at rotation 0.",
+  "material_colors": [
+    {"name": "grass", "color": "#5C9E4D"},
+    {"name": "leafsGreen", "color": "#3E8E41"},
+    {"name": "leafsDark", "color": "#2F6F3A"},
+    {"name": "stone", "color": "#9A9A94"},
+    {"name": "stoneDark", "color": "#74746F"}
+  ],
+  "items": [
+    {"id": "path_straight", "model": "NatureKit/ground_pathStraight", "category": "road", "connects": ["N", "S"], "weight": 1.0},
+    {"id": "path_corner", "model": "NatureKit/ground_pathCorner", "category": "road", "connects": ["S", "E"], "weight": 1.0},
+    {"id": "path_bend", "model": "NatureKit/ground_pathBend", "category": "road", "connects": ["S", "E"], "weight": 0.5},
+    {"id": "path_t", "model": "NatureKit/ground_pathSplit", "category": "road", "connects": ["W", "E", "S"], "weight": 1.0},
+    {"id": "path_cross", "model": "NatureKit/ground_pathCross", "category": "road", "connects": ["N", "E", "S", "W"], "weight": 1.0},
+    {"id": "ground_grass", "model": "NatureKit/ground_grass", "category": "ground", "weight": 2.0},
+    {"id": "ground_dirt", "model": "", "plain": "dirt", "category": "ground", "weight": 0.6},
+    {"id": "tree_oak", "model": "NatureKit/tree_oak", "category": "building", "front": "any", "weight": 1.0},
+    {"id": "tree_round", "model": "NatureKit/tree_default", "category": "building", "front": "any", "weight": 1.0},
+    {"id": "tree_fat", "model": "NatureKit/tree_fat", "category": "building", "front": "any", "weight": 0.7},
+    {"id": "tree_pine", "model": "NatureKit/tree_pineTallA", "category": "building", "front": "any", "weight": 1.0},
+    {"id": "rock_tall", "model": "NatureKit/stone_tallA", "category": "building", "front": "any", "weight": 0.5},
+    {"id": "prop_stump", "model": "NatureKit/stump_round", "category": "prop", "weight": 1.0},
+    {"id": "prop_bush", "model": "NatureKit/plant_bushLarge", "category": "prop", "weight": 1.0},
+    {"id": "prop_log", "model": "NatureKit/log", "category": "prop", "weight": 0.7},
+    {"id": "prop_rock", "model": "NatureKit/stone_largeA", "category": "prop", "weight": 0.7, "scale": 0.95},
+    {"id": "obs_log", "model": "NatureKit/log_large", "category": "road_obstacle", "row_axis": "x", "weight": 1.0}
+  ]
+}

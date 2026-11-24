@@ -1,0 +1,19 @@
+[
+  {"id": "path_straight", "prefab": "Forest/path_straight", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "connects": ["N", "S"], "weight": 1, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_pathStraight"},
+  {"id": "path_corner", "prefab": "Forest/path_corner", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "connects": ["S", "E"], "weight": 1, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_pathCorner"},
+  {"id": "path_bend", "prefab": "Forest/path_bend", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "connects": ["S", "E"], "weight": 0.5, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_pathBend"},
+  {"id": "path_t", "prefab": "Forest/path_t", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "connects": ["W", "E", "S"], "weight": 1, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_pathSplit"},
+  {"id": "path_cross", "prefab": "Forest/path_cross", "category": "road", "footprint": [1, 1], "height": 0, "collider": "none", "connects": ["N", "E", "S", "W"], "weight": 1, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_pathCross"},
+  {"id": "ground_grass", "prefab": "Forest/ground_grass", "category": "ground", "footprint": [1, 1], "height": 0, "collider": "none", "weight": 2, "size": [1, 0, 1], "source": "Kenney NatureKit/ground_grass"},
+  {"id": "ground_dirt", "prefab": "Forest/ground_dirt", "category": "ground", "footprint": [1, 1], "height": 0, "collider": "none", "weight": 0.6, "size": [1, 0, 1], "source": "IMRAI plain dirt tile"},
+  {"id": "tree_oak", "prefab": "Forest/tree_oak", "category": "building", "footprint": [1, 1], "height": 1.226, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.641, 1.226, 0.74], "source": "Kenney NatureKit/tree_oak"},
+  {"id": "tree_round", "prefab": "Forest/tree_round", "category": "building", "footprint": [1, 1], "height": 1.708, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.755, 1.708, 0.654], "source": "Kenney NatureKit/tree_default"},
+  {"id": "tree_fat", "prefab": "Forest/tree_fat", "category": "building", "footprint": [1, 1], "height": 1.15, "collider": "trigger_box", "front": "any", "weight": 0.7, "size": [0.755, 1.15, 0.654], "source": "Kenney NatureKit/tree_fat"},
+  {"id": "tree_pine", "prefab": "Forest/tree_pine", "category": "building", "footprint": [1, 1], "height": 1.53, "collider": "trigger_box", "front": "any", "weight": 1, "size": [0.386, 1.53, 0.392], "source": "Kenney NatureKit/tree_pineTallA"},
+  {"id": "rock_tall", "prefab": "Forest/rock_tall", "category": "building", "footprint": [1, 1], "height": 0.996, "collider": "trigger_box", "front": "any", "weight": 0.5, "size": [0.983, 0.996, 0.683], "source": "Kenney NatureKit/stone_tallA"},
+  {"id": "prop_stump", "prefab": "Forest/prop_stump", "category": "prop", "footprint": [1, 1], "height": 0.206, "collider": "trigger_box", "weight": 1, "size": [0.321, 0.206, 0.371], "source": "Kenney NatureKit/stump_round"},
+  {"id": "prop_bush", "prefab": "Forest/prop_bush", "category": "prop", "footprint": [1, 1], "height": 0.243, "collider": "trigger_box", "weight": 1, "size": [0.374, 0.243, 0.336], "source": "Kenney NatureKit/plant_bushLarge"},
+  {"id": "prop_log", "prefab": "Forest/prop_log", "category": "prop", "footprint": [1, 1], "height": 0.173, "collider": "trigger_box", "weight": 0.7, "size": [0.234, 0.173, 0.71], "source": "Kenney NatureKit/log"},
+  {"id": "prop_rock", "prefab": "Forest/prop_rock", "category": "prop", "footprint": [1, 1], "height": 0.247, "collider": "trigger_box", "weight": 0.7, "size": [0.746, 0.247, 0.965], "source": "Kenney NatureKit/stone_largeA"},
+  {"id": "obs_log", "prefab": "Forest/obs_log", "category": "road_obstacle", "footprint": [1, 1], "height": 0.417, "collider": "trigger_box", "weight": 1, "size": [1, 0.417, 0.549], "source": "Kenney NatureKit/log_large"}
+]

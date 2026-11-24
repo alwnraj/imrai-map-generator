@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24671f214a31a4cbda28cb32192349a5, type: 3}
+  m_Name: kenney_forest_v1_registry
+  m_EditorClassIdentifier: 
+  entries:
+  - id: path_straight
+    prefab: {fileID: 2798356153949934096, guid: a6485ace426f14476939c85c698d6b5d, type: 3}
+  - id: path_corner
+    prefab: {fileID: 5447246849209184197, guid: 38df509096ae44ea290ebf43d5100919, type: 3}
+  - id: path_bend
+    prefab: {fileID: 8169494519493871806, guid: 7f4155298b9ae41dea168f84dcb11f34, type: 3}
+  - id: path_t
+    prefab: {fileID: 279192133504441016, guid: 94ba125d3795f4053b59a347f6fec37f, type: 3}
+  - id: path_cross
+    prefab: {fileID: 3673218338030630775, guid: 852867986852b4c3da756d263294bb00, type: 3}
+  - id: ground_grass
+    prefab: {fileID: 2284954580548253158, guid: cc9c1418687ab4951a0e5117df2b6424, type: 3}
+  - id: ground_dirt
+    prefab: {fileID: 150348955667970635, guid: d219b3e1f29e64836bb6b25d9dd812ed, type: 3}
+  - id: tree_oak
+    prefab: {fileID: 82740531182622313, guid: e528d19a7d3e54642b940fc0f2594594, type: 3}
+  - id: tree_round
+    prefab: {fileID: 4270831222968095469, guid: e9a9b655deb5e4f6283e426d00e6bae6, type: 3}
+  - id: tree_fat
+    prefab: {fileID: 1755732904046693764, guid: 83d3b30f16f41451f811fba2141d0242, type: 3}
+  - id: tree_pine
+    prefab: {fileID: 3596062520890661010, guid: 86b8f6ef9f7d847328c36df727f330e7, type: 3}
+  - id: rock_tall
+    prefab: {fileID: 8111958497676307933, guid: 7677015c516d94e82ab75595959e95d0, type: 3}
+  - id: prop_stump
+    prefab: {fileID: 8613058305373130677, guid: 1d45abf0740624fb1adca536c39c77c7, type: 3}
+  - id: prop_bush
+    prefab: {fileID: 777201737196646559, guid: 5a8e3137150794e0e8fe5304266afb66, type: 3}
+  - id: prop_log
+    prefab: {fileID: 5576010233441761317, guid: 02b1191dbbf2d4a479d45759bf39dd70, type: 3}
+  - id: prop_rock
+    prefab: {fileID: 2024710349379244958, guid: 247fad359b2304bdca5ecf8d0d8816d5, type: 3}
+  - id: obs_log
+    prefab: {fileID: 8956213130755432795, guid: 6a5fca21f2d43400a9444ede3025882c, type: 3}

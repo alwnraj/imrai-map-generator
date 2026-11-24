@@ -1,0 +1,32 @@
+{
+  "manifest": "kenney_city_v1",
+  "folder": "City",
+  "_about": "How each IMRAI city prefab is built (PrefabBuilder). model = Kenney FBX under Assets/ThirdParty/Kenney; count/spacing = copies in a row across the tile (road barrier); connects = road edges at rotation 0 (N = +Z, E = +X), checked from top-down renders on 2026-11-21; front = side with the doors at rotation 0, checked from four-side renders. Only models that fit one tile at the kits' own scale are used in v0.1 (every Suburban house is 1.0-1.8 tiles across).",
+  "items": [
+    {"id": "road_straight", "model": "CityKitRoads/road-straight", "category": "road", "connects": ["E", "W"], "weight": 1.0},
+    {"id": "road_crosswalk", "model": "CityKitRoads/road-crossing", "category": "road", "connects": ["E", "W"], "weight": 0.25},
+    {"id": "road_corner", "model": "CityKitRoads/road-bend-square", "category": "road", "connects": ["N", "E"], "weight": 1.0},
+    {"id": "road_corner_round", "model": "CityKitRoads/road-bend", "category": "road", "connects": ["N", "E"], "weight": 0.5},
+    {"id": "road_t", "model": "CityKitRoads/road-intersection", "category": "road", "connects": ["N", "E", "W"], "weight": 1.0},
+    {"id": "road_crossing", "model": "CityKitRoads/road-crossroad", "category": "road", "connects": ["N", "E", "S", "W"], "weight": 1.0},
+    {"id": "ground_pavement", "model": "CityKitRoads/tile-low", "category": "ground", "weight": 1.0},
+    {"id": "ground_grass", "model": "", "category": "ground", "weight": 1.0, "plain": "grass"},
+    {"id": "bld_shop_a", "model": "CityKitCommercial/building-a", "category": "building", "front": "S", "weight": 1.0},
+    {"id": "bld_shop_b", "model": "CityKitCommercial/building-b", "category": "building", "front": "S", "weight": 1.0},
+    {"id": "bld_shop_d", "model": "CityKitCommercial/building-d", "category": "building", "front": "S", "weight": 1.0},
+    {"id": "bld_shop_g", "model": "CityKitCommercial/building-g", "category": "building", "front": "S", "weight": 1.0},
+    {"id": "bld_tower_a", "model": "CityKitCommercial/low-detail-building-a", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "bld_tower_d", "model": "CityKitCommercial/low-detail-building-d", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "bld_tower_h", "model": "CityKitCommercial/low-detail-building-h", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "bld_tower_l", "model": "CityKitCommercial/low-detail-building-l", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "bld_block_a", "model": "CityKitCommercial/low-detail-building-wide-a", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "bld_block_b", "model": "CityKitCommercial/low-detail-building-wide-b", "category": "building", "front": "any", "weight": 0.3},
+    {"id": "prop_tree_tall", "model": "CityKitSuburban/tree-large", "category": "prop", "weight": 1.0},
+    {"id": "prop_tree_small", "model": "CityKitSuburban/tree-small", "category": "prop", "weight": 1.0},
+    {"id": "prop_planter", "model": "CityKitSuburban/planter", "category": "prop", "weight": 0.5},
+    {"id": "prop_lamp_square", "model": "CityKitRoads/light-square", "category": "prop", "weight": 0.5},
+    {"id": "prop_lamp_curved", "model": "CityKitRoads/light-curved", "category": "prop", "weight": 0.5},
+    {"id": "prop_dumpster", "model": "CityKitRoads/dumpster", "category": "prop", "weight": 0.3},
+    {"id": "obs_barrier_row", "model": "CityKitRoads/construction-barrier", "category": "road_obstacle", "count": 4, "spacing": 0.24, "row_axis": "z", "weight": 1.0}
+  ]
+}

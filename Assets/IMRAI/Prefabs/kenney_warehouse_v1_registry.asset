@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24671f214a31a4cbda28cb32192349a5, type: 3}
+  m_Name: kenney_warehouse_v1_registry
+  m_EditorClassIdentifier: 
+  entries:
+  - id: aisle_floor
+    prefab: {fileID: 3461053870146920941, guid: 6c2d901a43f40463f8ac529472cee61a, type: 3}
+  - id: ground_concrete
+    prefab: {fileID: 6469401133124828505, guid: ec9b6711040254979b02d230a39d8616, type: 3}
+  - id: box_large
+    prefab: {fileID: 7609324926010903378, guid: a2c548bedd013414d9fd62f4019f005e, type: 3}
+  - id: box_long
+    prefab: {fileID: 1285622405196249143, guid: e210a1021548148599aa1052e9289efb, type: 3}
+  - id: box_wide
+    prefab: {fileID: 5630160119762106905, guid: 1e4e63a0255fd4c7d809ba34b96b66a5, type: 3}
+  - id: prop_box
+    prefab: {fileID: 7221724973753717788, guid: 88f56d7d81d194ecea1cc29c7e99d784, type: 3}
+  - id: prop_cone
+    prefab: {fileID: 7675265242236086747, guid: 85c2367e9e3d04d1385863b54aa6a421, type: 3}
+  - id: prop_barrel
+    prefab: {fileID: 7915874010810691657, guid: e40ef8560942c4e7895a594a52ffff5c, type: 3}
+  - id: obs_crates
+    prefab: {fileID: 9028623713925665321, guid: fe613e6c4e00a47ce93843ecf62d472d, type: 3}
