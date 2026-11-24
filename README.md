@@ -30,6 +30,8 @@ Keep `Assets` and all associated `.meta` files, `Packages`, `ProjectSettings`, t
 
 Package versions are pinned. Registry dependencies are Burst **1.8.9**, Mathematics **1.2.1** and Searcher **4.9.2**; URP **14.0.12** is supplied by the specified editor. Do not replace these with latest versions during installation.
 
+Only the package manifest and lock file are versioned. Unity restores package contents into its ignored cache; package binaries are not bundled in this repository.
+
 This is a sandbox. The arena is currently 9.71 × 7.16 m with a placeholder origin and corridor clearance. Alignment and loading in the actual Magic Leap 2/spectator apps still require lab calibration and integration. See `THIRD_PARTY.md` for asset licences.
 
 ## Developer checks
